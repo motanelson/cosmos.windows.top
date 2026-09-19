@@ -101,8 +101,8 @@ namespace WindowsFormsApp1
             Pen ppp2 = new Pen(Color.FromArgb(255, 255, 255));
             Brush p1 = new SolidBrush(Color.FromArgb(255, 255, 255, 255));
             Brush p2 = new SolidBrush(Color.FromArgb(255, 0, 0, 0));
-            Rectangle r = new Rectangle(x, y, 100, 100);
-            Rectangle rr = new Rectangle(x, y, 100, 10);
+            Rectangle r = new Rectangle(x, y, 300, 200);
+            Rectangle rr = new Rectangle(x, y, 300, 20);
             ee = Graphics.FromImage(b);
             ee.FillRectangle(p1, r);
             ee.DrawRectangle(ppp, r);
@@ -127,12 +127,12 @@ namespace WindowsFormsApp1
             
             
             for (int a = 0; a < 8; a++) {
-                drawWin(a * 10+10, a * 10+10);
+                drawWin(a * 30+10, a * 30+10);
                
 
             }
             int www = 4;
-            moveTop(www * 10, www * 10);
+            moveTop(www * 30, www * 30);
            
 
         }
